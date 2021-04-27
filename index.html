@@ -4,8 +4,43 @@ layout: default
 
 <section>
   <div class="container">
+
+    <h2>Fuelling success with trustworthy advice</h2>
+
     <p>The <code>{{site.title}}</code> is Jersey's trusted source of accredited, qualified, licensed, ratified, audited, sanctioned nutrition and diet specialists. If they're not on this list, don't trust them to tell you what to put in your mouth!</p>
 
     <p><code>{{ site.title }}</code> is committed to the <a href="https://www.gov.je/Health/HealthyBody/Pages/FoodNutritionStrategy.aspx">Food and Nutrition Strategy for Jersey</a>.</p>
+
+    <div class="btn-group">
+      <a href="#main-list" class="btn btn-cta">Find a practitioner</a>
+      <a href="/eligibility" class="btn btn-link">Read our criteria <i class="fas fa-arrow-right icon-right"></i></a>
+    </div>
+
+    <hr />
+
+    <div class="main-list-filters">
+      <p>Filter by specialty:</p>
+      <div>
+        <button type="button" name="all">All</button>
+        <button type="button" name="nutritionist">Nutritionist</button>
+        <button type="button" name="dietician">Dietician</button>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="main-list" class="main-list">
+      <ul class="">
+      {% for member in site.data.members %}
+        <li>
+          <h3><a href="{{ member.link }}">{{ member.name }}</a></h3>
+          <img src="{{ member.photo }}" alt="{{ member.name }}" />
+          <p>{{ member.bio }}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+
+
   </div>
 </section>

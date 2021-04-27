@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-$brand-color:           #6499e3;
+$brand-color:           #e0171f;
 $accent-color:          $brand-color; // Not used
 $light-grey:            #e7e7e7; // Borders, lines
 $soft-grey:             #9da5b4; // Text on dark backgrounds
@@ -35,5 +35,6 @@ $spacing-unit:          2rem;
   "global",
   "header",
   "footer",
+  "layout",
   "post"
 ;

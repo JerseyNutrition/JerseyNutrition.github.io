@@ -1,0 +1,20 @@
+- name: Kit Chamier
+  org: True Food
+  specialism: Nutrition
+  membership: Full
+  accreditation: [SENr, ISAK]
+  qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
+  bio: "Kit likes proper food lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  photo: https://www.truefood.je/media/1381/img_5007.jpg
+  link: https://truefood.je
+
+
+- name: Notkit Chamier
+  org: True Food
+  specialism: Nutrition
+  membership: Full
+  accreditation: [SENr, ISAK]
+  qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
+  bio: "Kit likes proper food lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  photo: https://www.truefood.je/media/1381/img_5007.jpg
+  link: https://truefood.je

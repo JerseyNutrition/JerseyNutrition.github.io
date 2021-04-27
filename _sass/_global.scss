@@ -1,3 +1,30 @@
+.btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: 0.4s ease;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.btn-cta {
+  background: $brand-color;
+  color: #fff;
+  &:hover {
+    background: darken($brand-color, 10%);
+    color: #fff;
+  }
+}
+.btn-link {
+  font-weight: 600;
+}
+.btn-group {
+  display: block;
+  padding: 1rem 0;
+  .btn {
+    margin-right: 10px;
+  }
+}
 .container {
   padding: 0 1rem;
   margin: 0 auto;
@@ -15,7 +42,10 @@
 .pre-footer {
   border-top: $border;
 }
-.inline-list {
+.list-unstyled {
+  list-style: none;
+}
+.list-inline {
   list-style-type: none;
   margin: 0;
   li {
