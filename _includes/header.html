@@ -3,7 +3,7 @@
   <div class="container nav-container white-bg">
     <div class="navbar">
       <div class="main">
-        <a id="nav-homepage" class="brand" href="/">Kit's Project</a>
+        <a id="nav-homepage" class="brand" href="{{ '/' | relative_url }}">Kit's Project</a>
         <button class="hamburger hamburger--spin" type="button">
           <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -11,7 +11,7 @@
         </button>
       </div>
       <nav>
-        <a id="nav-posts" href="/eligibility/">Eligibility</a>
+        <a id="nav-posts" href="{{ '/eligibility/' | relative_url }}">Eligibility</a>
         <a href="https://Truefood.je">Truefood.je <i class="fas fa-arrow-right icon-rotate-45"></i></a>
       </nav>
     </div>
