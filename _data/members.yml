@@ -1,20 +1,43 @@
 - name: Kit Chamier
+  firstname: Kit
   org: True Food
-  specialism: Nutrition
+  specialism: Nutritionist
   membership: Full
   accreditation: [SENr, ISAK]
   qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
-  bio: "Kit likes proper food lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  photo: https://www.truefood.je/media/1381/img_5007.jpg
+  bio: "Since beginning his practice in 2013 Kit has been at the forefront of nutrition in Jersey. Kit welcomes athletes of all ages and abilities and can tailor your food to best suit your training and race performance."
+  photo: kitchamier.jpg
   link: https://truefood.je
 
 
-- name: Notkit Chamier
+- name: Paul Garrod
+  firstname: Paul
   org: True Food
-  specialism: Nutrition
-  membership: Full
-  accreditation: [SENr, ISAK]
-  qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
-  bio: "Kit likes proper food lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  photo: https://www.truefood.je/media/1381/img_5007.jpg
+  specialism: Nutritionist
+  membership: Associate
+  accreditation: [SEN, ISAK]
+  qualifications: [BA Hons, IOPN Diploma]
+  bio: "Paul has 10 years experience in the fitness industry and now specialises in sport nutrition. Paul can assist you with a personalised diet to optimise your health and performance. A keen endurance athlete, Paul is passionate about he does."
+  photo: paulgarrod.jpg
   link: https://truefood.je
+
+- name: Beau Waugh
+  firstname: Beau
+  org: Pinpoint Nutrition
+  specialism: Nutritionist
+  membership: Full
+  accreditation: [ANutr, AFN]
+  qualifications: [BSc Hons]
+  bio: "Beau provides practical solutions and detailed dietary advice to improve your health. With a focus on preventative healthcare, Beau can help you find optimal health without the fads."
+  photo: beauwaugh.jpg
+  link: https://www.pinpointnutrition.org/
+
+- name: Lucy Jackman
+  firstname: Lucy
+  specialism: Dietician
+  membership: Full
+  accreditation: [RD. HCPC]
+  qualifications: [BSc Hons]
+  bio: "Lucy is experienced in managing food allergies, food intolerance, gastrointestinal reflux disease, fussy eating, poor growth and paediatric nutritional deficiencies; offering practical, personal dietary advice for parents and children."
+  photo: lucyjackman.jpg
+  link: https://www.lucyjackmanrd.com/

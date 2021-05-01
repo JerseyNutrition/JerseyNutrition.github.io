@@ -6,6 +6,11 @@
     display: none;
   };
 }
+.phones-exclude {
+  @media (max-width: 400px) {
+    display: none;
+  };
+}
 .small {
   font-size: $small;
 }
@@ -49,6 +54,7 @@
 }
 .icon-right {
   margin-left: 8px;
+  transition: 0.4s ease;
 }
 .icon-right-tight {
   margin-left: 3px;

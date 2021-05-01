@@ -15,6 +15,26 @@ jQuery(document).ready(function($){
   $("a[href^='http://samjamead.github.io/']").attr("target","_self");
   $("a[href^='https://samjamead.github.io/']").attr("target","_self");
 
+  $('.list-filter').on("click", function(){
+    var specialism = $(this).attr("name");
+    $('.list-filter').removeClass('btn-active');
+    $(this).addClass('btn-active');
+    $('.member-card').fadeOut();
+    if (specialism == "All") {
+      $('.member-card').fadeIn();
+    } else {
+      $('.' + specialism).fadeIn();
+    }
+  });
+
+  // Smoooooth scrolling
+  $('.smooth-scroll').on("click", function(){
+    $('html, body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 60
+    }, 500);
+    return false;
+  });
+
   // Open the menu
   var $hamburger = $('.hamburger');
   $hamburger.on("click", function(){

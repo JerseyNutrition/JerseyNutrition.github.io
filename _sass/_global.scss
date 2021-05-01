@@ -1,4 +1,6 @@
 .btn {
+  background: none;
+  display: inline-block;
   padding: 10px 20px;
   border-radius: 4px;
   transition: 0.4s ease;
@@ -8,15 +10,30 @@
   }
 }
 .btn-cta {
-  background: $brand-color;
+  background: url('../img/red-bg.png');
+  background-position: 35% 10%;;
   color: #fff;
   &:hover {
-    background: darken($brand-color, 10%);
+    background-position: 40% 10%;;
     color: #fff;
   }
 }
 .btn-link {
   font-weight: 600;
+}
+.btn-outline {
+  border: $border;
+  &:hover {
+    border-color: #000;
+  }
+}
+.btn-active {
+  background: url('../img/red-bg.png');
+  background-position: 40% 10%;;
+  color: #fff;
+  &:hover {
+    border-color: $brand-color;
+  }
 }
 .btn-group {
   display: block;
@@ -26,7 +43,7 @@
   }
 }
 .container {
-  padding: 0 1rem;
+  padding: 0 10px;
   margin: 0 auto;
   max-width: $column-width;
   @include for-tablet-landscape-up {
@@ -51,8 +68,9 @@
   li {
     margin-right: 1.5em;
     padding-left: 0;
+    display: inline-block;
     @include for-tablet-portrait-up {
-      display: inline-block;
+
       &:last-child {
         margin-right: 0;
       }

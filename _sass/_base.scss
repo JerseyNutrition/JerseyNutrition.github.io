@@ -36,7 +36,7 @@ section {
 }
 
 p {
-  font-size: $base-font-size;
+  font-size: 0.9*$base-font-size;
   line-height: 1.7;
   margin-bottom: 1rem;
   max-width: $paragraph-width;
@@ -97,6 +97,9 @@ hr {
   border: 0;
   border-bottom: $border;
 }
+hr.thick {
+  border-bottom: 2px solid #000;
+}
 figure {
   margin-bottom: 2rem;
 }
@@ -130,5 +133,12 @@ pre {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+  }
+}
+button {
+  border: 0;
+  font-size: 1rem;
+  &:hover {
+    cursor: pointer;
   }
 }

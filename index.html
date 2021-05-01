@@ -3,39 +3,51 @@ layout: default
 ---
 
 <section>
+  <div class="container hero">
+    <h1>Fuelling success with trustworthy advice</h1>
+    <p>{{site.title}} is Jersey's trusted source of accredited, qualified, licensed, ratified, audited, sanctioned nutrition and diet specialists. If they're not on this list, don't trust them to tell you what to put in your mouth!</p>
+    <div class="btn-group">
+      <a href="#main-list-filters" class="btn btn-cta smooth-scroll">Find a practitioner</a>
+      <a href="{{ '/eligibility' | relative_url }}" class="btn btn-link">Read our criteria <i class="fas fa-arrow-right icon-right"></i></a>
+    </div>
+
+    <p class="hero-strip">{{ site.title }} is committed to the <a href="https://www.gov.je/Health/HealthyBody/Pages/FoodNutritionStrategy.aspx">Food and Nutrition Strategy for Jersey</a>.</p>
+
+  </div>
+
   <div class="container">
 
-    <h2>Fuelling success with trustworthy advice</h2>
-
-    <p>The <code>{{site.title}}</code> is Jersey's trusted source of accredited, qualified, licensed, ratified, audited, sanctioned nutrition and diet specialists. If they're not on this list, don't trust them to tell you what to put in your mouth!</p>
-
-    <p><code>{{ site.title }}</code> is committed to the <a href="https://www.gov.je/Health/HealthyBody/Pages/FoodNutritionStrategy.aspx">Food and Nutrition Strategy for Jersey</a>.</p>
-
-    <div class="btn-group">
-      <a href="#main-list" class="btn btn-cta">Find a practitioner</a>
-      <a href="/eligibility" class="btn btn-link">Read our criteria <i class="fas fa-arrow-right icon-right"></i></a>
-    </div>
-
-    <hr />
-
-    <div class="main-list-filters">
-      <p>Filter by specialty:</p>
-      <div>
-        <button type="button" name="all">All</button>
-        <button type="button" name="nutritionist">Nutritionist</button>
-        <button type="button" name="dietician">Dietician</button>
+    <div class="main-list-wrapper">
+      <div id="main-list-filters" class="main-list-filters">
+        <div>
+          <h2 id="filtered-state">Registered Practitioners</h2>
+        </div>
+        <div>
+          <span class="phones-exclude">Change filter: </span>
+          <button type="button" class="list-filter btn btn-outline btn-active" name="All">All</button>
+          <button type="button" class="list-filter btn btn-outline" name="Nutritionist">Nutritionist</button>
+          <button type="button" class="list-filter btn btn-outline" name="Dietician">Dietician</button>
+        </div>
       </div>
-    </div>
 
-    <hr />
-
-    <div id="main-list" class="main-list">
-      <ul class="">
+      <ul class="card-list" id="main-list">
       {% for member in site.data.members %}
-        <li>
-          <h3><a href="{{ member.link }}">{{ member.name }}</a></h3>
-          <img src="{{ member.photo }}" alt="{{ member.name }}" />
-          <p>{{ member.bio }}
+        <li class="member-card {{ member.specialism }}">
+          <div class="member-info">
+            <ul class="list-inline">
+              <li class="tag">{{ member.specialism }}</li>
+              {% if member.org %}
+                <li>//</li>
+                <li><a href="{{ member.link }}">{{ member.org }}</a></li>
+              {% endif %}
+            </ul>
+            <h3><a href="{{ member.link }}">{{ member.name }}</a> <span class="subheading">{{ member.accreditation | join: ", " }}</span></h3>
+            <p>{{ member.bio }}</p>
+            <p class="member-link"><a href="{{ member.link }}">Visit {{ member.firstname }}'s website<i class="fas fa-arrow-right icon-right"></i></a></p>
+          </div>
+          <div class="member-img">
+            <img src="./assets/img/{{ member.photo }}" alt="{{ member.name }}" />
+          </div>
         </li>
       {% endfor %}
       </ul>
