@@ -14,7 +14,12 @@
   </body>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="{{ '/assets/js/scripts.js' | prepend: site.github.url }}"></script>
+  {% if jekyll.environment == "production" %}
+    <script src="{{ '/assets/js/scripts.js' | prepend: site.github.url }}"></script>
+  {% else %}
+    <script src="/assets/js/scripts.js"></script>
+  {% endif %}
+
   <script src="https://kit.fontawesome.com/57fd74623e.js" crossorigin="anonymous"></script>
 
 </html>

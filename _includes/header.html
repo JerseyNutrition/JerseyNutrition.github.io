@@ -3,7 +3,12 @@
   <div class="container nav-container white-bg">
     <div class="navbar">
       <div class="main">
-        <a id="nav-homepage" class="brand" href="{{ '/' | prepend: site.github.url }}">Kit's Project</a>
+        {% if jekyll.environment == "production" %}
+          <a id="nav-homepage" class="brand" href="{{ '/' | prepend: site.github.url }}"><img src="{{ '/assets/img/logoplaceholder.png' | prepend: site.github.url }}" /><span>{{ site.title }}</span></a>
+        {% else %}
+          <a id="nav-homepage" class="brand" href="/"><img src="/assets/img/logoplaceholder.png" /><span>{{ site.title }}</span></a>
+        {% endif %}
+
         <button class="hamburger hamburger--spin" type="button">
           <span class="hamburger-box">
             <span class="hamburger-inner"></span>
@@ -11,7 +16,12 @@
         </button>
       </div>
       <nav>
-        <a id="nav-posts" href="{{ '/eligibility/' | prepend: site.github.url }}">Eligibility</a>
+        {% if jekyll.environment == "production" %}
+          <a id="nav-posts" href="{{ '/eligibility/' | prepend: site.github.url }}">Eligibility</a>
+        {% else %}
+          <a id="nav-posts" href="/eligibility/">Eligibility</a>
+        {% endif %}
+
         <a href="https://Truefood.je">Truefood.je <i class="fas fa-arrow-right icon-rotate-45"></i></a>
       </nav>
     </div>
