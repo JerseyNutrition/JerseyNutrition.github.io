@@ -2,14 +2,25 @@
   <div class="container">
     <div class="footer-inner">
       <h2>{{ site.title }}</h2>
-      <ul class="list-inline social-icons">
+      <!-- <ul class="list-inline social-icons">
         <li><a href="https://twitter.com/nutritionkit"><i class="fab fa-twitter-square"></i></a></li>
         <li><a href="https://www.instagram.com/truefoodsportnutrition/"><i class="fab fa-instagram-square"></i></a></li>
         <li><a href="https://www.linkedin.com/company/true-food"><i class="fab fa-linkedin"></i></a></li>
         <li><a href="https://www.facebook.com/truefoodsportnutrition"><i class="fab fa-facebook-square"></i></a></li>
-      </ul>
-      <p>Cool project tag line here.<br class="phones-only" /></p>
-      <p class="last-word small text-center">v0.1</p>
+      </ul> -->
+      <p>Nutrition Professionals Jersey is a collective of qualified nutrition professionals that are members of a recognised accrediting body.</p>
+      <p>Contact any of the listed members for more information.</p>
+
+      {% if jekyll.environment == "production" %}
+        <p><a href="'/faq#notlisted' | prepend: site.github.url }}">Don't see your nutritionist here?</a></p>
+      {% else %}
+        <p><a href="/faq#notlisted">Don't see your nutritionist here?</a></p>
+      {% endif %}
+
+      <div class="last-word">
+        <p class="small">&copy; Nutrition Professionals Jersey, 2021</p>
+      </div>
+
     </div>
   </div>
 </footer>
