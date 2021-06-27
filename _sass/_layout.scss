@@ -181,8 +181,8 @@
         font-size: 1.8rem;
         margin-bottom: 0;
         @include for-tablet-landscape-up {
+          order: 3;
           margin-bottom: 1em;
-          order: 2;
         };
       }
       .subheading {
