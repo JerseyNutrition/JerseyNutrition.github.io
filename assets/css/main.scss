@@ -8,7 +8,7 @@ $accent-color:          $brand-color; // Not used
 $light-grey:            #e7e7e7; // Borders, lines
 $soft-grey:             #9da5b4; // Text on dark backgrounds
 $dark-grey:             #24272d; // For dark backgrounds and text
-$background-color:      #fff; // Guardian cream
+$background-color:      #f9f9fb; 
 
 $text-color:            #4a4a4a;
 $text-color-alt:        rgb(69, 102, 131); // Bluish
@@ -19,7 +19,7 @@ $base-font-family:      -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helveti
 $base-font-weight:      normal;
 $small:                 $base-font-size * 0.875;
 
-$column-width:          1030px;
+$column-width:          800px;
 $paragraph-width:       650px;
 
 $headings-font-family:  $base-font-family;

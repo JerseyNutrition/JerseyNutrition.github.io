@@ -4,9 +4,9 @@
     <div class="navbar">
       <div class="main">
         {% if jekyll.environment == "production" %}
-          <a id="nav-homepage" class="brand" href="{{ '/' | prepend: site.github.url }}"><img src="{{ '/assets/img/logoplaceholder.png' | prepend: site.github.url }}" /><span>{{ site.title }}</span></a>
+          <a id="nav-homepage" class="brand" href="{{ '/' | prepend: site.github.url }}"><img src="{{ '/assets/img/logov4.svg' | prepend: site.github.url }}" /><span>{{ site.title }}</span></a>
         {% else %}
-          <a id="nav-homepage" class="brand" href="/"><img src="/assets/img/logoplaceholder.png" /><span>{{ site.title }}</span></a>
+          <a id="nav-homepage" class="brand" href="/"><img src="/assets/img/logov4.svg" /><span>{{ site.title }}</span></a>
         {% endif %}
 
         <button class="hamburger hamburger--spin" type="button">
@@ -17,11 +17,13 @@
       </div>
       <nav>
         {% if jekyll.environment == "production" %}
-          <a id="nav-posts" href="{{ '/faq/' | prepend: site.github.url }}">FAQ</a>
-          <a id="nav-posts" href="{{ '/join/' | prepend: site.github.url }}">Join NPJ</a>
+          <a class="smooth-scroll" href="{{ '/#about' | prepend: site.github.url }}">About</a>
+          <a href="{{ '/faq/' | prepend: site.github.url }}">FAQ</a>
+          <a href="{{ '/join/' | prepend: site.github.url }}">Join NPJ</a>
         {% else %}
-          <a id="nav-posts" href="/faq/">FAQ</a>
-          <a id="nav-posts" href="/join/">Join NPJ</a>
+          <a class="smooth-scroll" href="/#about">About</a>
+          <a href="/faq/">FAQ</a>
+          <a href="/join/">Join NPJ</a>
         {% endif %}
       </nav>
     </div>
