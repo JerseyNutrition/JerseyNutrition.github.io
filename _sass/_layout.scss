@@ -178,7 +178,7 @@
       flex-basis: 100%;
       @include for-tablet-landscape-up {
         flex: 0 0 59%;
-        padding: 0 1.5rem 1rem 0rem;
+        padding: 0 1.5rem 1rem 1.5rem;
       };
       ul {
         order: 2;

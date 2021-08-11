@@ -3,61 +3,68 @@
   org: True Food
   specialism: Nutritionist
   membership: Full
-  accreditation: [SENr, ISAK]
+  accreditation: [MSc, SENr]
   qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
   bio: "Specialist in sport nutrition for all ages, abilities, and sports. Particular interest in triathlon, and weight making sports."
   photo: kitchamierSquare.jpg
   link: https://truefood.je
-
+  filters: [Sport nutrition, General health, Corporate health]
 
 - name: Paul Garrod
   firstname: Paul
   org: True Food
   specialism: Nutritionist
   membership: Associate
-  accreditation: [SEN, ISAK]
+  accreditation: [BSc, SEN]
   qualifications: [BA Hons, IOPN Diploma]
-  bio: "Specialist in sports nutrition for all ages, abilities, and sports. Particular interest in endurance and ultra."
+  bio: "Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra."
   photo: paulgarrodSquare.jpg
   link: https://truefood.je
+  filters: [Sport nutrition, General health, Corporate health]
 
 - name: Beau Waugh
   firstname: Beau
   org: Pinpoint Nutrition
   specialism: Nutritionist
   membership: Full
-  accreditation: [ANutr, AFN]
+  accreditation: [BSc, ANutr, AFN]
   qualifications: [BSc Hons]
-  bio: "Beau provides practical solutions and detailed dietary advice to improve your health. With a focus on preventative healthcare, Beau can help you find optimal health without the fads."
+  bio: "Beau provides practical dietary advice to improve your health, with a focus on preventative healthcare without the fads."
   photo: beauwaughSquare.jpg
   link: https://www.pinpointnutrition.org/
+  filters: [General health, Corporate health]
 
 - name: Lucy Jackman
   firstname: Lucy
+  org: Happy Tummy Dietitian
   specialism: Dietitian
   membership: Full
-  accreditation: [RD. HCPC]
+  accreditation: [BSc, RD. HCPC]
   qualifications: [BSc Hons]
   bio: "Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning."
   photo: lucyjackmanSquare.jpg
   link: https://www.lucyjackmanrd.com/
+  filters: [General health, Paediatrics, Women's Health]
 
 - name: Jessica Pinel
   firstname: Jessica
+  org: Humankynd
   specialism: Nutritionist
   membership: Full
-  accreditation: [ANutr]
+  accreditation: [MSc, ANutr, AFN]
   qualifications: [BSc Hons, MSc]
-  bio: "Jessica completed her MSc in Nutrition at the University of Chester. She previously spent six years working in medical health as a clinical physiologist and research scientist, after completing her MSc in Biomedical Sciences in 2014."
+  bio: "Specialises in fertility nutrution, including preconception and conception."
   photo: jessicapinelSquare.jpg
   link: https://www.humankyndnutrition.com/
+  filters: [Preconception and conception, Women's health, General health, Corporate health]
 
 - name: Laura Foster
   firstname: Laura
   specialism: Dietitian
   membership: Full
-  accreditation: [RD. HCPC]
+  accreditation: [BSc, RD. HCPC]
   qualifications:
-  bio: "Software undergoes beta testing shortly before it’s released. Beta is Latin for 'still doesn’t work'."
-  photo: osaka.jpg
+  bio: "Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances."
+  photo: laurafosterSquare.jpg
   link: https://www.gov.je/Health/HealthyBody/pages/dietitians.aspx
+  filters: [Oncology, Gastroenterology, General health, Women's health]
