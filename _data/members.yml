@@ -5,7 +5,7 @@
   membership: Full
   accreditation: [SENr, ISAK]
   qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
-  bio: "Since beginning his practice in 2013 Kit has been at the forefront of nutrition in Jersey. Kit welcomes athletes of all ages and abilities and can tailor your food to best suit your training and race performance."
+  bio: "Specialist in sport nutrition for all ages, abilities, and sports. Particular interest in triathlon, and weight making sports."
   photo: kitchamierSquare.jpg
   link: https://truefood.je
 
@@ -17,7 +17,7 @@
   membership: Associate
   accreditation: [SEN, ISAK]
   qualifications: [BA Hons, IOPN Diploma]
-  bio: "Paul has 10 years experience in the fitness industry and now specialises in sport nutrition. Paul can assist you with a personalised diet to optimise your health and performance. A keen endurance athlete, Paul is passionate about he does."
+  bio: "Specialist in sports nutrition for all ages, abilities, and sports. Particular interest in endurance and ultra."
   photo: paulgarrodSquare.jpg
   link: https://truefood.je
 
@@ -34,11 +34,11 @@
 
 - name: Lucy Jackman
   firstname: Lucy
-  specialism: Dietician
+  specialism: Dietitian
   membership: Full
   accreditation: [RD. HCPC]
   qualifications: [BSc Hons]
-  bio: "Lucy is experienced in managing food allergies, food intolerance, gastrointestinal reflux disease, fussy eating, poor growth and paediatric nutritional deficiencies; offering practical, personal dietary advice for parents and children."
+  bio: "Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning."
   photo: lucyjackmanSquare.jpg
   link: https://www.lucyjackmanrd.com/
 
@@ -51,3 +51,13 @@
   bio: "Jessica completed her MSc in Nutrition at the University of Chester. She previously spent six years working in medical health as a clinical physiologist and research scientist, after completing her MSc in Biomedical Sciences in 2014."
   photo: jessicapinelSquare.jpg
   link: https://www.humankyndnutrition.com/
+
+- name: Laura Foster
+  firstname: Laura
+  specialism: Dietitian
+  membership: Full
+  accreditation: [RD. HCPC]
+  qualifications:
+  bio: "Software undergoes beta testing shortly before it’s released. Beta is Latin for 'still doesn’t work'."
+  photo: osaka.jpg
+  link: https://www.gov.je/Health/HealthyBody/pages/dietitians.aspx

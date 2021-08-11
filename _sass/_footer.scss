@@ -9,7 +9,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #f8f8f8;
+  background: radial-gradient(ellipse closest-side at 50% 50%, #3a3f45, #37383c 25%, #343233);
+  color: #efeae1;
   border-top: $border;
   text-align: center;
   @include for-tablet-portrait-up {
@@ -17,7 +18,7 @@ footer {
   }
   .footer-inner {
     margin: 0 auto;
-    padding: 3rem 0 2rem;
+    padding: 4rem 0 2rem;
     max-width: $column-width;
   }
   h2 {
@@ -25,7 +26,9 @@ footer {
   }
   a {
     transition: 0.4s ease;
+    color: #ff7a18;
     &:hover {
+      color: #ff7a18;
       span {
         text-decoration: none;
       }
