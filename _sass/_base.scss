@@ -69,11 +69,13 @@ a {
 ul, ol, dl {
   @extend p;
   max-width: 570px;
+}
+ol {
+  @extend p;
   margin-left: 2rem;
 }
-li, dd, dt {
+li, dt {
   margin-bottom: 1rem;
-  padding-left: 7px;
   > ul,
   > ol {
     margin-bottom: 0;
@@ -82,6 +84,9 @@ li, dd, dt {
 dt {
   font-weight: bold;
   margin-bottom: 10px;
+}
+dd {
+  margin-bottom: 2rem;
 }
 blockquote {
   @extend p;

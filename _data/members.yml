@@ -8,7 +8,7 @@
   bio: "Specialist in sport nutrition for all ages, abilities, and sports. Particular interest in triathlon, and weight making sports."
   photo: kitchamierSquare.jpg
   link: https://truefood.je
-  filters: [Sport nutrition, General health, Corporate health]
+  filters: [sportsnutrition, general, corporate]
 
 - name: Paul Garrod
   firstname: Paul
@@ -20,7 +20,7 @@
   bio: "Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra."
   photo: paulgarrodSquare.jpg
   link: https://truefood.je
-  filters: [Sport nutrition, General health, Corporate health]
+  filters: [sportsnutrition, general, corporate]
 
 - name: Beau Waugh
   firstname: Beau
@@ -32,7 +32,7 @@
   bio: "Beau provides practical dietary advice to improve your health, with a focus on preventative healthcare without the fads."
   photo: beauwaughSquare.jpg
   link: https://www.pinpointnutrition.org/
-  filters: [General health, Corporate health]
+  filters: [general, corporate]
 
 - name: Lucy Jackman
   firstname: Lucy
@@ -43,8 +43,8 @@
   qualifications: [BSc Hons]
   bio: "Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning."
   photo: lucyjackmanSquare.jpg
-  link: https://www.lucyjackmanrd.com/
-  filters: [General health, Paediatrics, Women's Health]
+  link: https://www.thehappytummydietitian.com/
+  filters: [general, paediatrics, women]
 
 - name: Jessica Pinel
   firstname: Jessica
@@ -56,7 +56,7 @@
   bio: "Specialises in fertility nutrution, including preconception and conception."
   photo: jessicapinelSquare.jpg
   link: https://www.humankyndnutrition.com/
-  filters: [Preconception and conception, Women's health, General health, Corporate health]
+  filters: [conception, women, general, corporate]
 
 - name: Laura Foster
   firstname: Laura
@@ -67,4 +67,4 @@
   bio: "Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances."
   photo: laurafosterSquare.jpg
   link: https://www.gov.je/Health/HealthyBody/pages/dietitians.aspx
-  filters: [Oncology, Gastroenterology, General health, Women's health]
+  filters: [oncology, gastroenterology, general, women]

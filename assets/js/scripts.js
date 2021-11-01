@@ -15,12 +15,10 @@ jQuery(document).ready(function($){
   $("a[href^='http://samjamead.github.io/']").attr("target","_self");
   $("a[href^='https://samjamead.github.io/']").attr("target","_self");
 
-  $('.list-filter').on("click", function(){
-    var specialism = $(this).attr("name");
-    $('.list-filter').removeClass('btn-active');
-    $(this).addClass('btn-active');
+  $('#specialism-select').on("change", function(){
     $('.member-card').fadeOut();
-    if (specialism == "All") {
+    var specialism = this.value;
+    if (specialism == ".all") {
       $('.member-card').fadeIn();
     } else {
       $('.' + specialism).fadeIn();
@@ -30,7 +28,7 @@ jQuery(document).ready(function($){
   // Smoooooth scrolling
   $('.smooth-scroll').on("click", function(){
     $('html, body').animate({
-      scrollTop: $($(this).attr('href')).offset().top - 60
+      scrollTop: $($(this).attr('href')).offset().top
     }, 500);
     return false;
   });
