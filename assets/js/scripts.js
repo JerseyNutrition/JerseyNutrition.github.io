@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
   $('#specialism-select').on("change", function(){
     $('.member-card').fadeOut();
     var specialism = this.value;
-    if (specialism == ".all") {
+    if (specialism == "all") {
       $('.member-card').fadeIn();
     } else {
       $('.' + specialism).fadeIn();
