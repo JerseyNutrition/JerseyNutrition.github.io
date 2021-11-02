@@ -238,11 +238,12 @@
       };
       img {
         display: block;
-        max-width: 120px;
-        margin-right: calc(100vw - 155px); // I have absolutely no idea why this is necassary
-        border-radius: 100%;
         @include for-tablet-landscape-up {
+          max-width: 120px;
+          margin-right: calc(100vw - 155px); // I have absolutely no idea why this is necassary
+          border-radius: 100%;
           max-width: 250px;
+          max-height: 250px;
           margin: 0;
         };
       }
