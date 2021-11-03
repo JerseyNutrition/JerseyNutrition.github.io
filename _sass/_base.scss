@@ -68,7 +68,7 @@ a {
 }
 ul, ol, dl {
   @extend p;
-  max-width: 570px;
+  max-width: $paragraph-width;
 }
 ol {
   @extend p;

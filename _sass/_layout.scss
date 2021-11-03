@@ -2,7 +2,7 @@
 //  Post SASS
 // =======================================
 .hero {
-  max-width: 950px;
+  max-width: $column-width;
   margin: 0 auto;
   text-align: left;
   padding: 0 10px;

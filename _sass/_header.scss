@@ -3,7 +3,7 @@
   border-bottom: $border;
   .nav-container {
     margin-top: -190px; // This is an inexact science
-    max-width: 950px;
+    max-width: $column-width;
     transition: 0.4s ease;
     @include for-tablet-landscape-up {
       margin-top: 0;
