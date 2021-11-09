@@ -109,7 +109,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   @include for-tablet-landscape-up {
     flex-direction: row;
     justify-content: space-between;
@@ -154,17 +154,18 @@
     @extend .card-list;
   }
   .member-card {
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem 10px 1.5rem;
     background: $background-color;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
     border-radius: 4px;
     border: $border;
     @include for-tablet-landscape-up {
       flex-direction: row;
-      align-items: flex-start;
+      align-items: center;
       justify-content: space-between;
       padding: 2rem 2rem 1rem;
     };
@@ -189,14 +190,11 @@
         };
       }
       li {
-        margin-right: 1rem;
+        margin-right: 0.5rem;
         color: #888;
         @include for-tablet-landscape-up {
-          margin-right: 1.5rem;
+          margin-right: 1rem;
         };
-      }
-      .tag {
-        letter-spacing: 1px;
       }
       h3 {
         order: 1;
