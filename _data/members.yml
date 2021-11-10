@@ -10,18 +10,6 @@
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
 
-- name: Paul Garrod
-  firstname: Paul
-  org: True Food
-  specialism: Nutritionist
-  membership: Associate
-  accreditation: [BSc, SEN]
-  qualifications: [BA Hons, IOPN Diploma]
-  bio: "Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra."
-  photo: paulgarrodSquare.jpg
-  link: https://truefood.je
-  filters: [sportsnutrition, general, corporate]
-
 - name: Beau Waugh
   firstname: Beau
   org: Pinpoint Nutrition
@@ -68,3 +56,15 @@
   photo: laurafosterSquare.jpg
   link: https://www.gov.je/health/healthybody/pages/dietitians.aspx
   filters: [oncology, gastroenterology, general, women]
+
+- name: Paul Garrod
+  firstname: Paul
+  org: True Food
+  specialism: Nutritionist
+  membership: Associate
+  accreditation: [BSc, SEN]
+  qualifications: [BA Hons, IOPN Diploma]
+  bio: "Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra."
+  photo: paulgarrodSquare.jpg
+  link: https://truefood.je
+  filters: [sportsnutrition, general, corporate]

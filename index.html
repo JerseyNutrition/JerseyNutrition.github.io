@@ -76,6 +76,9 @@ layout: default
               {% endif %}
             </ul>
             <h3><a href="{{ member.link }}">{{ member.name }}</a> <span class="subheading">{{ member.accreditation | join: ", " }}</span></h3>
+            {% if member.membership == "Associate" %}
+              <p class="label">Associate Member</p>
+            {% endif %}
             <p>{{ member.bio }}</p>
             <p class="member-link"><a href="{{ member.link }}">Visit {{ member.firstname }}'s website<i class="fas fa-arrow-right icon-right"></i></a></p>
           </div>
