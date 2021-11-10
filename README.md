@@ -1,2 +1,5 @@
-# projectchamier
-Kit's Nutrition in Jersey project
+# Jersey Nutrition
+
+Jersey Nutrition / Nutrition Professionals Jersey website repo
+
+Contact: samjamead@gmail.com 
