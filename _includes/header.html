@@ -3,11 +3,8 @@
   <div class="container nav-container white-bg">
     <div class="navbar">
       <div class="main">
-        {% if jekyll.environment == "production" %}
-          <a id="nav-homepage" class="brand" href="{{ '/' | prepend: site.github.url }}"><img src="{{ '/assets/img/logoicon.png' | prepend: site.github.url }}" /><span>Jersey Nutrition</span></a>
-        {% else %}
-          <a id="nav-homepage" class="brand" href="/"><img src="/assets/img/logoicon.png" /><span>Jersey Nutrition</span></a>
-        {% endif %}
+
+        <a id="nav-homepage" class="brand" href="/"><img src="/assets/img/logoicon.png" /><span>Jersey Nutrition</span></a>
 
         <button class="hamburger hamburger--spin" type="button">
           <span class="hamburger-box">
@@ -16,15 +13,9 @@
         </button>
       </div>
       <nav>
-        {% if jekyll.environment == "production" %}
-          <a class="smooth-scroll" href="{{ '/#about' | prepend: site.github.url }}">About</a>
-          <a href="{{ '/faq/' | prepend: site.github.url }}">FAQ</a>
-          <a href="{{ '/join/' | prepend: site.github.url }}">Join Jersey Nutrition</a>
-        {% else %}
-          <a href="/#about">About</a>
-          <a href="/faq/">FAQ</a>
-          <a href="/join/">Join Jersey Nutrition</a>
-        {% endif %}
+        <a href="/#about">About</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/join/">Join Jersey Nutrition</a>
       </nav>
     </div>
   </div>

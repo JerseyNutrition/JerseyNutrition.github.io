@@ -8,11 +8,7 @@ layout: default
     <p>Get nutrition advice from qualified, accredited nutrition professionals in Jersey.</p>
     <div class="btn-group">
       <a href="#practitioners" class="btn btn-cta smooth-scroll">Find a practitioner</a>
-      {% if jekyll.environment == "production" %}
-        <a href="{{ '/join/' | prepend: site.github.url }}" class="btn btn-link">Read our criteria<i class="fas fa-arrow-right icon-right"></i></a>
-      {% else %}
-        <a href="/join/" class="btn btn-link">Read our criteria<i class="fas fa-arrow-right icon-right"></i></a>
-      {% endif %}
+      <a href="/join/" class="btn btn-link">Read our criteria<i class="fas fa-arrow-right icon-right"></i></a>
     </div>
   </div>
 </section>
@@ -29,11 +25,7 @@ layout: default
     </ol>
     <div class="btn-group">
       <a href="#practitioners" class="btn btn-cta smooth-scroll">Find a practitioner</a>
-      {% if jekyll.environment == "production" %}
-        <a href="{{ '/faq' | prepend: site.github.url }}" class="btn btn-link">Read more<i class="fas fa-arrow-right icon-right"></i></a>
-      {% else %}
-        <a href="/faq/" class="btn btn-link">Read more<i class="fas fa-arrow-right icon-right"></i></a>
-      {% endif %}
+      <a href="/faq/" class="btn btn-link">Read more<i class="fas fa-arrow-right icon-right"></i></a>
     </div>
   </div>
 </section>
