@@ -12,8 +12,8 @@ jQuery(document).ready(function($){
   $("a[href^='https://']").attr("target","_blank");
 
   // Unless it's because of Github pages
-  $("a[href^='http://samjamead.github.io/']").attr("target","_self");
-  $("a[href^='https://samjamead.github.io/']").attr("target","_self");
+  $("a[href^='http://jerseynutrition.com/']").attr("target","_self");
+  $("a[href^='https://jerseynutrition.com/']").attr("target","_self");
 
   $('#specialism-select').on("change", function(){
     $('.member-card').fadeOut();
