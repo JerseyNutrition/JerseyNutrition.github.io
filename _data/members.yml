@@ -59,6 +59,7 @@
 
 - name: Susan Burry
   firstname: Susan
+  org: Nutrition U
   specialism: Dietitian
   membership: Full
   accreditation: [BSc, RD, MBA, MSc]
