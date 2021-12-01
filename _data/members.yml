@@ -50,12 +50,23 @@
   firstname: Laura
   specialism: Dietitian
   membership: Full
-  accreditation: [BSc, RD. HCPC]
+  accreditation: [BSc, RD, HCPC]
   qualifications:
   bio: "Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances."
   photo: laurafosterSquare.jpg
   link: https://www.gov.je/health/healthybody/pages/dietitians.aspx
   filters: [oncology, gastroenterology, general, women]
+
+- name: Susan Burry
+  firstname: Susan
+  specialism: Dietitian
+  membership: Full
+  accreditation: [BSc, RD, MBA, MSc]
+  qualifications:
+  bio: "Susan specialises in obesity, weight loss programmes, and plant based nutrition with a focus on vegan and vegetarian diets."
+  photo: susanBurrySquare.jpeg
+  link: https://www.nutritionu.co.uk/
+  filters: [general, women]
 
 - name: Paul Garrod
   firstname: Paul
