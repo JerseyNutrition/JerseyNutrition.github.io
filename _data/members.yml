@@ -54,7 +54,7 @@
   qualifications:
   bio: "Specialises in women's health, PCOS, PMS, menopause and fertility nutrition including preconception and conception."
   photo: laurafosterSquare.jpg
-  link: https://www.gov.je/health/healthybody/pages/dietitians.aspx
+  link: mailto:L.Foster@health.gov.je
   filters: [oncology, gastroenterology, general, women]
 
 - name: Susan Burry
@@ -68,6 +68,22 @@
   photo: susanBurrySquare.jpeg
   link: https://www.nutritionu.co.uk/
   filters: [general, women]
+
+
+Specialises in gastrointestinal disorders with an interest in gut health, as well as oncology nutrition. She enjoys working with patients who struggle with their diet and who suffer from symptoms of cancer treatment.
+contact button to also be open email to
+
+- name: Anna Pallot
+  firstname: Anna
+  org:
+  specialism: Dietitian
+  membership: Full
+  accreditation: [BSc, RD, HCPC]
+  qualifications:
+  bio: "Specialises in gastrointestinal disorders with an interest in gut health, as well as oncology nutrition. She enjoys working with patients who struggle with their diet and who suffer from symptoms of cancer treatment."
+  photo: annapallot.jpeg
+  link: mailto:annaswiercz@windowslive.com
+  filters: [general, women, oncology]
 
 - name: Paul Garrod
   firstname: Paul
