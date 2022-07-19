@@ -80,6 +80,18 @@
   photo: annapallot.jpeg
   link: mailto:annapallotrd@gmail.com
   filters: [general, women, oncology]
+  
+- name: Esther Schultz
+  firstname: Esther
+  org: Elemental Health
+  specialism: Dietitian
+  membership: Full
+  accreditation: [MSc, RD]
+  qualifications:
+  bio: "Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University."
+  photo: estherSchultz.jpeg
+  link: mailto:esther@elementalhealth.je
+  filters: [general]
 
 - name: Paul Garrod
   firstname: Paul
