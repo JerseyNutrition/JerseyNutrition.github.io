@@ -4,8 +4,9 @@
   specialism: Nutritionist
   membership: Full
   accreditation: [MSc, SENr]
-  qualifications: [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
-  bio: "Specialist in sport nutrition for all ages, abilities, and sports. Particular interest in triathlon, and weight making sports."
+  qualifications:
+    [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
+  bio: 'Specialist in sport nutrition for all ages, abilities, and sports. Particular interest in triathlon, and weight making sports.'
   photo: kitchamierSquare.jpg
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
@@ -17,7 +18,7 @@
   membership: Full
   accreditation: [BSc, SEN]
   qualifications: [BA Hons, IOPN Diploma]
-  bio: "Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra."
+  bio: 'Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra.'
   photo: paulgarrodSquare.jpg
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
@@ -29,7 +30,7 @@
   membership: Full
   accreditation: [BSc, ANutr, AFN]
   qualifications: [BSc Hons]
-  bio: "Beau provides practical dietary advice to improve your health, with a focus on preventative healthcare without the fads."
+  bio: 'Beau provides practical dietary advice to improve your health, with a focus on preventative healthcare without the fads.'
   photo: beauwaughSquare.jpg
   link: https://www.pinpointnutrition.org/
   filters: [general, corporate]
@@ -41,7 +42,7 @@
   membership: Full
   accreditation: [BSc, RD. HCPC]
   qualifications: [BSc Hons]
-  bio: "Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning."
+  bio: 'Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning.'
   photo: lucyjackmanSquare.jpg
   link: https://www.thehappytummydietitian.com/
   filters: [general, paediatrics, women]
@@ -64,7 +65,7 @@
   membership: Full
   accreditation: [BSc, RD, HCPC]
   qualifications:
-  bio: "Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances."
+  bio: 'Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances.'
   photo: laurafosterSquare.jpg
   link: mailto:thegoodgutclinicjersey@gmail.com
   filters: [oncology, gastroenterology, general, women]
@@ -76,23 +77,23 @@
   membership: Full
   accreditation: [BSc, RD, MBA, MSc]
   qualifications:
-  bio: "Susan specialises in obesity, weight loss programmes, and plant based nutrition with a focus on vegan and vegetarian diets."
+  bio: 'Susan specialises in obesity, weight loss programmes, and plant based nutrition with a focus on vegan and vegetarian diets.'
   photo: susanBurrySquare.jpeg
   link: https://www.nutritionu.co.uk/
   filters: [general, women]
 
-- name: Anna Pallot
-  firstname: Anna
+- name: Libby Gascoigne
+  firstname: Libby
   org:
-  specialism: Dietitian
+  specialism: Sports Nutrition
   membership: Full
-  accreditation: [BSc, RD, HCPC]
+  accreditation: [BSc, MSc]
   qualifications:
-  bio: "Specialises in gastrointestinal disorders with an interest in gut health, as well as oncology nutrition. She enjoys working with patients who struggle with their diet and who suffer from symptoms of cancer treatment."
-  photo: annapallot.jpeg
-  link: mailto:annapallotrd@gmail.com
-  filters: [general, women, oncology]
-  
+  bio: 'Libby has works with elite sports teams and the general population for health, overall well-being, energy levels, and management of chronic conditions. .'
+  photo: libbygascogine.jpeg
+  link: https://www.instagram.com/l.g_nutrition/
+  filters: [general, sports]
+
 - name: Esther Schultz
   firstname: Esther
   org: Elemental Health
@@ -100,7 +101,7 @@
   membership: Full
   accreditation: [MSc, RD]
   qualifications:
-  bio: "Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University."
+  bio: 'Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University.'
   photo: estherSchultz.jpeg
   link: https://www.elementalhealth.je/esther-schultz
   filters: [general]
