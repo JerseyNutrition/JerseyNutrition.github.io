@@ -84,7 +84,7 @@
 
 - name: Libby Gascoigne
   firstname: Libby
-  org:
+  org: L G Nutrition
   specialism: Sports Nutrition
   membership: Full
   accreditation: [BSc, MSc]
@@ -92,7 +92,7 @@
   bio: 'Libby has works with elite sports teams and the general population for health, overall well-being, energy levels, and management of chronic conditions.'
   photo: libbygascoigne.jpg
   link: https://www.instagram.com/l.g_nutrition/
-  filters: [general, sports]
+  filters: [general, sportsnutrition]
 
 - name: Esther Schultz
   firstname: Esther
