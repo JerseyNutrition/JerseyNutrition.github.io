@@ -3,10 +3,10 @@
   org: True Food
   specialism: Nutritionist
   membership: Full
-  accreditation: [MSc, SENr]
+  accreditation: [BSc, MSc, SENr]
   qualifications:
     [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
-  bio: 'Specialist in sport nutrition for all ages, abilities, and sports. Particular interest in triathlon, and weight making sports.'
+  bio: 'Specialist in nutrition for health and sport, providing high quality evidence-based and personalised advice.'
   photo: kitchamierSquare.jpg
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
@@ -18,29 +18,17 @@
   membership: Full
   accreditation: [BSc, SEN]
   qualifications: [BA Hons, IOPN Diploma]
-  bio: 'Specialist in sports nutrition for all ages, abilities, and sports. Paul has a particular interest in endurance and ultra.'
+  bio: 'Specialist in nutrition for health and sport. Focussed on preventative healthcare without the fads. Paul has a particular interest in endurance and ultra sports nutrition.'
   photo: paulgarrodSquare.jpg
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
-
-- name: Beau Waugh
-  firstname: Beau
-  org: Pinpoint Nutrition
-  specialism: Nutritionist
-  membership: Full
-  accreditation: [BSc, ANutr, AFN]
-  qualifications: [BSc Hons]
-  bio: 'Beau provides practical dietary advice to improve your health, with a focus on preventative healthcare without the fads.'
-  photo: beauwaughSquare.jpg
-  link: https://www.pinpointnutrition.org/
-  filters: [general, corporate]
 
 - name: Lucy Jackman
   firstname: Lucy
   org: Happy Tummy Dietitian
   specialism: Dietitian
   membership: Full
-  accreditation: [BSc, RD. HCPC]
+  accreditation: [BSc, RD, HCPC]
   qualifications: [BSc Hons]
   bio: 'Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning.'
   photo: lucyjackmanSquare.jpg
@@ -52,12 +40,24 @@
   org: Humankynd
   specialism: Nutritionist
   membership: Full
-  accreditation: [MSc, ANutr, AFN]
+  accreditation: [MSc, RNutr, AFN]
   qualifications: [BSc Hons, MSc]
   bio: "Specialises in women's health, PCOS, PMS, menopause and fertility nutrition including preconception and conception."
   photo: jessicapinelSquare.jpg
   link: https://www.humankyndnutrition.com/
   filters: [conception, women, general, corporate]
+
+- name: Esther Schultz
+  firstname: Esther
+  org: Elemental Health
+  specialism: Dietitian
+  membership: Full
+  accreditation: [MSc, RD, HCPC]
+  qualifications:
+  bio: 'Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University.'
+  photo: estherSchultz.jpeg
+  link: https://www.elementalhealth.je/esther-schultz
+  filters: [general]
 
 - name: Laura Foster
   firstname: Laura
@@ -69,6 +69,30 @@
   photo: laurafosterSquare.jpg
   link: mailto:thegoodgutclinicjersey@gmail.com
   filters: [oncology, gastroenterology, general, women]
+
+- name: Libby Gascoigne
+  firstname: Libby
+  org: L G Nutrition
+  specialism: Sports Nutrition
+  membership: Full
+  accreditation: [BSc, MSc, SENr]
+  qualifications:
+  bio: 'Libby has worked with elite sports teams and the general population for health, overall well-being, energy levels, and management of chronic conditions.'
+  photo: libbygascoigne.jpg
+  link: https://www.instagram.com/l.g_nutrition/
+  filters: [general, sportsnutrition]
+
+- name: Georgia Averty
+  firstname: Georgia
+  org: Viva
+  specialism: Nutritionist
+  membership: Full
+  accreditation: [BSc, MSc, ANutr]
+  qualifications:
+  bio: 'Georgia provides evidence-based, practical advice tailored to individual goals. Whether improving health, managing specific dietary needs, she helps clients build sustainable habits by considering the wider picture, including personalised meal plans with Viva.'
+  photo: georgia-averty-square.jpg
+  link: https://viva.je/nutrition/#services
+  filters: [general]
 
 - name: Susan Burry
   firstname: Susan
@@ -82,26 +106,14 @@
   link: https://www.nutritionu.co.uk/
   filters: [general, women]
 
-- name: Libby Gascoigne
-  firstname: Libby
-  org: L G Nutrition
-  specialism: Sports Nutrition
+- name: Beau Waugh
+  firstname: Beau
+  org: Pinpoint Nutrition
+  specialism: Nutritionist
   membership: Full
-  accreditation: [BSc, MSc]
-  qualifications:
-  bio: 'Libby has works with elite sports teams and the general population for health, overall well-being, energy levels, and management of chronic conditions.'
-  photo: libbygascoigne.jpg
-  link: https://www.instagram.com/l.g_nutrition/
-  filters: [general, sportsnutrition]
-
-- name: Esther Schultz
-  firstname: Esther
-  org: Elemental Health
-  specialism: Dietitian
-  membership: Full
-  accreditation: [MSc, RD]
-  qualifications:
-  bio: 'Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University.'
-  photo: estherSchultz.jpeg
-  link: https://www.elementalhealth.je/esther-schultz
-  filters: [general]
+  accreditation: [BSc, ANutr, AFN]
+  qualifications: [BSc Hons]
+  bio: 'Beau provides practical dietary advice to improve your health, manage your weight, or improve your performance.'
+  photo: beauwaughSquare.jpg
+  link: https://www.pinpointnutrition.org/
+  filters: [general, corporate]

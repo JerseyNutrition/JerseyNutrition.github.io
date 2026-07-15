@@ -7,35 +7,55 @@ layout: default
 
 <section>
   <div class="hero forcedbuild">
-    <h1>Jersey Nutrition helps islanders find safe, high-quality nutrition advice.</h1>
-    <p>Get nutrition advice from qualified, accredited nutrition professionals in Jersey.</p>
+    <h1>
+      Jersey Nutrition helps islanders find safe, high-quality nutrition advice.
+    </h1>
+    <p>
+      Get nutrition advice from qualified, accredited nutrition professionals in
+      Jersey.
+    </p>
     <div class="btn-group">
-      <a href="#practitioners" class="btn btn-cta smooth-scroll">Find a practitioner</a>
-      <a href="/join/" class="btn btn-link">Read our criteria<i class="fas fa-arrow-right icon-right"></i></a>
+      <a href="#practitioners" class="btn btn-cta smooth-scroll"
+        >Find a practitioner</a
+      >
+      <a href="/join/" class="btn btn-link"
+        >Read our criteria<i class="fas fa-arrow-right icon-right"></i
+      ></a>
     </div>
   </div>
 </section>
 
 <section id="about" class="about-section">
   <div class="container">
-    <h2>What is Jersey Nutrition?</h2>
-    <p>Jersey Nutrition is a collective of qualified nutrition professionals that are members of a recognised accrediting body.</p>
+    <h2>
+      Jersey Nutrition is a collective of qualified nutrition professionals that
+      are members of a recognised accrediting body.
+    </h2>
     <p><strong>Our Purpose</strong></p>
     <ol class="text-left">
-      <li>Provide the people of Jersey with assurance about the quality, safety, and effectiveness of their nutrition practitioner</li>
-      <li>Educate the people of Jersey on the distinguishing factors between different nutrition practitioners</li>
+      <li>
+        Provide the people of Jersey with assurance about the quality, safety,
+        and effectiveness of their nutrition practitioner
+      </li>
+      <li>
+        Educate the people of Jersey on the distinguishing factors between
+        different nutrition practitioners
+      </li>
       <li>Promote registered and qualified practitioners</li>
     </ol>
     <div class="btn-group">
-      <a href="#practitioners" class="btn btn-cta smooth-scroll">Find a practitioner</a>
-      <a href="/faq/" class="btn btn-link">Read more<i class="fas fa-arrow-right icon-right"></i></a>
+      <a href="#practitioners" class="btn btn-cta smooth-scroll"
+        >Find a practitioner</a
+      >
+      <a href="/faq/" class="btn btn-link"
+        >Read more<i class="fas fa-arrow-right icon-right"></i
+      ></a>
     </div>
   </div>
 </section>
 
 <section class="practitioner-section" id="practitioners">
   <div class="container">
-
     <div class="main-list-wrapper">
       <div id="main-list-filters" class="main-list-filters">
         <div>
@@ -57,31 +77,43 @@ layout: default
       </div>
 
       <ul class="card-list" id="main-list">
-      {% for member in site.data.members %}
+        {% for member in site.data.members %}
         <li class="member-card {{ member.filters | join: ' ' }}">
           <div class="member-img">
-            <img src="./assets/img/{{ member.photo }}" alt="{{ member.name }}" />
+            <img
+              src="./assets/img/{{ member.photo }}"
+              alt="{{ member.name }}"
+            />
           </div>
           <div class="member-info">
             <ul class="list-inline">
               <li class="tag">{{ member.specialism }}</li>
               {% if member.org %}
-                <li>//</li>
-                <li><a href="{{ member.link }}">{{ member.org }}</a></li>
+              <li>//</li>
+              <li><a href="{{ member.link }}">{{ member.org }}</a></li>
               {% endif %}
             </ul>
-            <h3><a href="{{ member.link }}">{{ member.name }}</a> <span class="subheading">{{ member.accreditation | join: ", " }}</span></h3>
+            <h3>
+              <a href="{{ member.link }}">{{ member.name }}</a>
+              <span class="subheading"
+                >{{ member.accreditation | join: ", " }}</span
+              >
+            </h3>
             {% if member.membership == "Associate" %}
-              <p class="label">Associate Member</p>
+            <p class="label">Associate Member</p>
             {% endif %}
             <p>{{ member.bio }}</p>
-            <p class="member-link"><a href="{{ member.link }}">Visit {{ member.firstname }}'s website<i class="fas fa-arrow-right icon-right"></i></a></p>
+            <p class="member-link">
+              <a href="{{ member.link }}"
+                >Visit {{ member.firstname }}'s website<i
+                  class="fas fa-arrow-right icon-right"
+                ></i
+              ></a>
+            </p>
           </div>
         </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
     </div>
-
-
   </div>
 </section>

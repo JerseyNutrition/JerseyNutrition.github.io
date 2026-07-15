@@ -2,14 +2,29 @@
   box-sizing: border-box;
 }
 
-html, body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
+html,
+body {
   font-size: $base-font-size;
 }
 
@@ -24,10 +39,10 @@ body {
   color: $text-color;
   background: $background-color;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
   font-kerning: normal;
 }
 
@@ -37,26 +52,32 @@ section {
 }
 
 p {
-  font-size: 0.9*$base-font-size;
+  font-size: 0.9 * $base-font-size;
   line-height: 1.7;
   margin-bottom: 1rem;
   max-width: $paragraph-width;
   @include for-tablet-portrait-up {
     font-size: $base-font-size;
-  };
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $headings-font-family;
   font-weight: $headings-font-weight;
   margin-bottom: 1rem;
   max-width: 700px;
+  text-wrap: balance;
 }
 h1 {
   font-size: 26px;
   @include for-tablet-portrait-up {
     font-size: 32px;
-  };
+  }
 }
 a {
   color: $accent-color;
@@ -66,7 +87,9 @@ a {
     text-decoration: underline;
   }
 }
-ul, ol, dl {
+ul,
+ol,
+dl {
   @extend p;
   max-width: $paragraph-width;
 }
@@ -74,8 +97,10 @@ ol {
   @extend p;
   margin-left: 2rem;
 }
-li, dt {
+li,
+dt {
   margin-bottom: 1rem;
+  text-wrap: pretty;
   > ul,
   > ol {
     margin-bottom: 0;
@@ -115,7 +140,8 @@ figcaption {
   font-size: $small;
   font-style: italic;
 }
-img, video {
+img,
+video {
   max-width: 100%;
   vertical-align: middle;
   display: block;
@@ -128,9 +154,9 @@ pre,
 code {
   background-color: #f5f5f5;
   color: #f14668;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: 400;
-  padding: .25em .5em .25em;
+  padding: 0.25em 0.5em 0.25em;
 }
 pre {
   padding: 8px 12px;
