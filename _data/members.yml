@@ -6,7 +6,7 @@
   accreditation: [BSc, MSc, SENr]
   qualifications:
     [BSc Sports Coaching, MSc Applied Sport and Exercise Nutrition]
-  bio: 'Specialist in nutrition for health and sport, providing high quality evidence-based and personalised advice.'
+  bio: "Specialist in nutrition for health and sport, providing high quality evidence-based and personalised advice."
   photo: kitchamierSquare.jpg
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
@@ -18,7 +18,7 @@
   membership: Full
   accreditation: [BSc, SEN]
   qualifications: [BA Hons, IOPN Diploma]
-  bio: 'Specialist in nutrition for health and sport. Focussed on preventative healthcare without the fads. Paul has a particular interest in endurance and ultra sports nutrition.'
+  bio: "Specialist in nutrition for health and sport. Focussed on preventative healthcare without the fads. Paul has a particular interest in endurance and ultra sports nutrition."
   photo: paulgarrodSquare.jpg
   link: https://truefood.je
   filters: [sportsnutrition, general, corporate]
@@ -30,7 +30,7 @@
   membership: Full
   accreditation: [BSc, RD, HCPC]
   qualifications: [BSc Hons]
-  bio: 'Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning.'
+  bio: "Specialist in paediatric dietetics which includes food allergies, intolerances, fussy eating, gastrointestinal reflux disease, and weaning."
   photo: lucyjackmanSquare.jpg
   link: https://www.thehappytummydietitian.com/
   filters: [general, paediatrics, women]
@@ -54,7 +54,7 @@
   membership: Full
   accreditation: [MSc, RD, HCPC]
   qualifications:
-  bio: 'Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University.'
+  bio: "Esther specializes in digestive health, autoimmune conditions and chronic lifestyle diseases, and has been trained in the use of the low FODMAP diet for IBS by Monash University."
   photo: estherSchultz.jpeg
   link: https://www.elementalhealth.je/esther-schultz
   filters: [general]
@@ -65,7 +65,7 @@
   membership: Full
   accreditation: [BSc, RD, HCPC]
   qualifications:
-  bio: 'Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances.'
+  bio: "Specialises in oncology nutrition and gastroenterology, including IBS, IBD, FODMAP, allergies, and intolerances."
   photo: laurafosterSquare.jpg
   link: mailto:thegoodgutclinicjersey@gmail.com
   filters: [oncology, gastroenterology, general, women]
@@ -73,11 +73,11 @@
 - name: Libby Gascoigne
   firstname: Libby
   org: L G Nutrition
-  specialism: Sports Nutrition
+  specialism: Nutritionist
   membership: Full
   accreditation: [BSc, MSc, SENr]
   qualifications:
-  bio: 'Libby has worked with elite sports teams and the general population for health, overall well-being, energy levels, and management of chronic conditions.'
+  bio: "Libby has worked with elite sports teams and the general population for health, overall well-being, energy levels, and management of chronic conditions."
   photo: libbygascoigne.jpg
   link: https://www.instagram.com/l.g_nutrition/
   filters: [general, sportsnutrition]
@@ -87,9 +87,9 @@
   org: Viva
   specialism: Nutritionist
   membership: Full
-  accreditation: [BSc, MSc, ANutr]
+  accreditation: [BSc, ANutr, AFN]
   qualifications:
-  bio: 'Georgia provides evidence-based, practical advice tailored to individual goals. Whether improving health, managing specific dietary needs, she helps clients build sustainable habits by considering the wider picture, including personalised meal plans with Viva.'
+  bio: "Georgia provides evidence-based, practical advice tailored to individual goals. Whether improving health, managing specific dietary needs, she helps clients build sustainable habits by considering the wider picture, including personalised meal plans with Viva."
   photo: georgia-averty-square.jpg
   link: https://viva.je/nutrition/#services
   filters: [general]
@@ -101,7 +101,7 @@
   membership: Full
   accreditation: [BSc, RD, MBA, MSc]
   qualifications:
-  bio: 'Susan specialises in obesity, weight loss programmes, and plant based nutrition with a focus on vegan and vegetarian diets.'
+  bio: "Susan specialises in obesity, weight loss programmes, and plant based nutrition with a focus on vegan and vegetarian diets."
   photo: susanBurrySquare.jpeg
   link: https://www.nutritionu.co.uk/
   filters: [general, women]
@@ -113,7 +113,7 @@
   membership: Full
   accreditation: [BSc, ANutr, AFN]
   qualifications: [BSc Hons]
-  bio: 'Beau provides practical dietary advice to improve your health, manage your weight, or improve your performance.'
+  bio: "Beau provides practical dietary advice to improve your health, manage your weight, or improve your performance."
   photo: beauwaughSquare.jpg
   link: https://www.pinpointnutrition.org/
   filters: [general, corporate]
